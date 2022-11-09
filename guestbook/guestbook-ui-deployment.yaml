@@ -14,5 +14,5 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-      - image: gcr.io/heptio-images/ks-guestbook-demo:0.2
+      - image: gcr.io/kuar-demo/kuard-amd64:blue
         name: guestbook-ui
